@@ -1,11 +1,5 @@
 <template>
   <div id="app" class="container">
-    <!-- ---------------------------------------------------------- -->
-    <!-- <HelloWorld 
-      msg="Creador: Team mintic"
-    /> -->
-    <!-- <Pruebas /> -->
-    <!-- ----------------------------------------------------------- -->
     <nav >
       <ul class="nav justify-content-end">
         <li class="nav-item"><img  alt="App logo" src="./assets/logounab.jpg" width="100" height="80"></li>
@@ -23,8 +17,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Pruebas from './components/Pruebas.vue'
 import Personas from './components/Personas.vue'
 import Resultados from './components/Resultados.vue'
 
@@ -38,8 +30,6 @@ export default {
     }
   },
   components: {
-    // HelloWorld,
-    // Pruebas,
     Personas,
     Resultados,
   },
@@ -105,13 +95,5 @@ nav ul li{
   background-color: rgb(230, 131, 19);
     color: white;
   }
-
-/* #app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 10px;
-} */
-
 
 </style>
