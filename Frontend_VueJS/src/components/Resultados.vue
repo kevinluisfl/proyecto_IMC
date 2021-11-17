@@ -5,6 +5,7 @@
         <div class="col-6">
             <div class="row justify-content-end">
                 <div class="col-7">
+                    <!-- Esto esta comentado porque ahora se muestra directamente la tabla -->
                     <!-- <a v-if="mostrar" v-on:click="cargarPersonas" class="btn btn-success" data-bs-toggle="collapse" href="#collapseResultados" role="button" aria-expanded="true" aria-controls="collapseResultados">
                         Ver Resultados <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                     </a>
