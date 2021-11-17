@@ -2,7 +2,7 @@
     <div class="container animate__animated animate__fadeIn" >
 <!-- buscador -->
     <div class="row justify-content-end">
-        <div class="col-md-3">
+        <div class="col-md-6 col-lg-4">
             <div class="input-group input-group-sm ">
                 <span class="input-group-text">Buscar por ID:</span>
                 <input class="form-control form-control-sm" v-model="id" id="id" type="number">
